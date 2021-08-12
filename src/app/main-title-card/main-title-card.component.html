@@ -1,0 +1,14 @@
+<div class="main-title-card">
+    <div class="single-title-card">
+        <h5>Effective Service Level</h5>
+        <h1 *ngFor="let data of datas">{{ data.EffectiveServiceLevel }}</h1>
+    </div>
+    <div class="single-title-card">
+        <h5>Ouliers</h5>
+        <h1 *ngFor="let data of datas">{{ data.Outliers }}</h1>
+    </div>
+    <div class="single-title-card">
+        <h5>Days with outliers</h5>
+        <h1 *ngFor="let data of datas">{{ data.DaysWithOutliers }}</h1>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="main-card">
+    <div class="card-item"><h3>
+        Headline Figures
+    </h3>
+        <div class="card-item-list">
+            <ul *ngFor="let data of datas">
+                <li>Effective Service Level<span style="padding-left: 5rem;">{{ data.EffectiveServiceLevel }}</span> </li>
+                <li>Outliers<span style="padding-left: 11rem;"> {{ data.Outliers }}</span></li>
+                <li>Days With Outliers<span style="padding-left: 6.2rem;"> {{ data.DaysWithOutliers }}</span></li>
+                <li>Start Date<span style="padding-left: 10.1rem;"> {{ data.StartDate }}</span></li>
+                <li>EndDate<span style="padding-left: 11rem;">{{ data.EndDate }}</span></li>
+            </ul>
+        </div>
+    </div>
+</div>

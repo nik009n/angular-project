@@ -1,0 +1,19 @@
+.nav-heading h3 {
+    margin-left: 25%;
+    padding-top: 2rem;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: inherit;
+}
+.nav-icons{
+    margin-top: 80%;
+}
+
+.nav-icons ul li {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 25%;
+}

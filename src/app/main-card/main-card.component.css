@@ -1,0 +1,25 @@
+.card-item {
+    background: rgb(1, 32, 85);
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    padding-bottom: .2rem;
+    box-shadow: -5px -5px 5px  rgba(1,32,85,0.5),
+    5px  5px 5px  rgb(1, 32, 85);
+    
+}
+
+.card-item h3 {
+    padding: 2rem;
+}
+
+
+.card-item-list ul li {
+    padding: .5rem;
+    list-style-type: none;
+    color: white;
+}
+
+.card-item-list {
+    margin-bottom: 2.5rem;
+}

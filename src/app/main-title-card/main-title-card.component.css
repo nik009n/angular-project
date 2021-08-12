@@ -1,0 +1,15 @@
+.main-title-card {
+    margin: 3rem;
+    margin-left: 5rem;
+    display: flex;
+}
+
+.single-title-card {
+    border-left: 1px solid rgb(2, 77, 121);
+    width: 20%;
+    padding: 1rem;
+}
+
+.single-title-card h1 {
+    color: white;
+}

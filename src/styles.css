@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@300&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color: rgb(0, 234, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "EffectiveServiceLevel": "99.5%",
+        "Outliers": ".55%",
+        "DaysWithOutliers": "27",
+        "StartDate": "Aug 1, 2021",
+        "EndDate": "Aug 10, 2021"
+    }
+    
+]
